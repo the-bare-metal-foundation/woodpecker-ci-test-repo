@@ -12,4 +12,5 @@ steps:
       image: "golang:1.16"
       commands:
           - echo "Testing..."
+          - chmod +x ./executable
           - ./executable
